@@ -28,12 +28,12 @@ $$
 
 Where:
 
-* $$n_{sol}$$ = Amount of SOL in the reserve
-* $$p_{sol}$$ = Spot price of SOL
-* $$n_{hyusd}$$  = Current supply of hyUSD
-* $$p_{hyusd}$$  = Current price of hyUSD, pegged at 1
-* $$n_{levsol}$$  = Current supply of levSOL
-* $$p_{levsol}$$  = Current price of levSOL
+* $n_{sol}$ = Amount of SOL in the reserve
+* $p_{sol}$ = Spot price of SOL
+* $n_{hyusd}$  = Current supply of hyUSD
+* $p_{hyusd}$  = Current price of hyUSD, pegged at 1
+* $n_{levsol}$  = Current supply of levSOL
+* $p_{levsol}$  = Current price of levSOL
 
 The protocol dynamically adjusts levSOL's price to maintain this balance.
 
