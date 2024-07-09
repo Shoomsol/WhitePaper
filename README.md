@@ -1,6 +1,6 @@
 # Lite Paper
 
-Hylo introduces an innovative framework for a decentralized stablecoin on Solana, designed for scalability and improved performance. Building upon the foundational concepts borrowed from the [f(x) protocol](https://fx.aladdin.club/) on Ethereum, Hylo has refined and adapted these ideas to enhance functionality and increase stability of the system by expanding it to be monolithic, support multiple liquid staked tokens (LST) and change the stability modes escalations. It features two SOL-based derivatives: hyUSD, a stablecoin designed to maintain a 1:1 peg with the USD, and levSOL, a token representing a leveraged position on SOL.&#x20;
+Hylo introduces an innovative framework for a decentralized stablecoin on Solana, designed for scalability and improved performance. Building upon the foundational concepts borrowed from the [f(x) protocol](https://fx.aladdin.club/) on Ethereum, Hylo has refined and adapted these ideas to enhance functionality and increase stability of the system by expanding it to be monolithic, support multiple liquid staked tokens (LST) and change the stability modes escalations. It features two SOL-based derivatives: hyUSD, a stablecoin designed to maintain a 1:1 peg with the USD, and levSOL, a token representing a leveraged position on SOL.
 
 ## 1. hyUSD, a decentralized stablecoin
 
@@ -14,13 +14,11 @@ The main advantage of levSOL, compared to other methods to leverage investors ex
 
 ## 3. Symbiotic relationship between levSOL and hyUSD
 
-levSOL and hyUSD share a symbiotic relationship, where levSOL acts as a buffer, absorbing SOL's volatility. This arrangement facilitates the stability of hyUSD, enabling it to maintain its 1:1 peg with the USD despite market fluctuations. This interdependence not only enhances the robustness of hyUSD but also leverages the inherent volatility of SOL to the advantage of levSOL holders.&#x20;
+levSOL and hyUSD share a symbiotic relationship, where levSOL acts as a buffer, absorbing SOL's volatility. This arrangement facilitates the stability of hyUSD, enabling it to maintain its 1:1 peg with the USD despite market fluctuations. This interdependence not only enhances the robustness of hyUSD but also leverages the inherent volatility of SOL to the advantage of levSOL holders.
 
-### 3.1. Algorithm adjustment
+### 3.1. Dynamic adjustment
 
-The price of levSOL is dynamically adjusted depending on the price of SOL, ensuring that the market capitalisation of hyUSD  plus the market capitalisation of levSOL supply always equals the SOL reserve's value. This mechanism allows both hyUSD and levSOL to be redeemed at their Net Asset Value (NAV) at any time, based on the following equation:
-
-
+The price of levSOL is dynamically adjusted depending on the price of SOL, ensuring that the market capitalisation of hyUSD plus the market capitalisation of levSOL supply always equals the SOL reserve's value. This mechanism allows both hyUSD and levSOL to be redeemed at their Net Asset Value (NAV) at any time, based on the following equation:
 
 $$
 n_{sol} * p_{sol} = n_{hyusd} * p_{hyusd} + n_{levsol} * p_{levsol}
@@ -28,12 +26,12 @@ $$
 
 Where:
 
-* $n_{sol}$ = Amount of SOL in the reserve
-* $p_{sol}$ = Spot price of SOL
-* $n_{hyusd}$  = Current supply of hyUSD
-* $p_{hyusd}$  = Current price of hyUSD, pegged at 1
-* $n_{levsol}$  = Current supply of levSOL
-* $p_{levsol}$  = Current price of levSOL
+* $n\_{sol}$ = Amount of SOL in the reserve
+* $p\_{sol}$ = Spot price of SOL
+* $n\_{hyusd}$ = Current supply of hyUSD
+* $p\_{hyusd}$ = Current price of hyUSD, pegged at 1
+* $n\_{levsol}$ = Current supply of levSOL
+* $p\_{levsol}$ = Current price of levSOL
 
 The protocol dynamically adjusts levSOL's price to maintain this balance.
 
@@ -78,11 +76,11 @@ There are two types of stability pools:
 
 Minting premiums will also be awarded in HYLO tokens to further incentivize users to mint levSOL.
 
-These mechanisms ensure that the protocol maintains a healthy collateralization ratio, thereby enhancing stability and security for all participants.&#x20;
+These mechanisms ensure that the protocol maintains a healthy collateralization ratio, thereby enhancing stability and security for all participants.
 
 ## 4. Economic model of Hylo
 
-Hylo is designed to generate revenue through two main channels. The initial source of income comes from the fees incurred during the minting and burning processes (detailed in [section 3](./#id-3.2.1.-stability-mode-1-minting-and-burning-control)). However, the majority of Hylo's revenue is expected to be derived from the yield produced by staked SOL. The SOL held in the reserve is projected to yield an Annual Percentage Yield (APY) of around 7-8%. A portion of this yield will be allocated to those participating in the stability pools, with the remaining yield serving as a direct source of revenue for Hylo.&#x20;
+Hylo is designed to generate revenue through two main channels. The initial source of income comes from the fees incurred during the minting and burning processes (detailed in [section 3](./#id-3.2.1.-stability-mode-1-minting-and-burning-control)). However, the majority of Hylo's revenue is expected to be derived from the yield produced by staked SOL. The SOL held in the reserve is projected to yield an Annual Percentage Yield (APY) of around 7-8%. A portion of this yield will be allocated to those participating in the stability pools, with the remaining yield serving as a direct source of revenue for Hylo.
 
 ## 5. The HYLO token
 
@@ -99,13 +97,9 @@ Through these utilities, the HYLO token is designed to foster a robust, particip
 In summary, Hylo introduces to Solana a novel approach to decentralized stablecoins, creating a scalable and stable ecosystem with hyUSD and levSOL. This innovative framework not only ensures that hyUSD maintains its peg to the USD but also allows for potential growth through leveraged positions on SOL via levSOL. Furthermore, Hylo offers an attractive proposition for investors seeking Solana staking yields without direct exposure to SOL price movements, by enabling the staking of hyUSD into the stability pools. Coupled with Stability Modes and the strategic application of the HYLO governance token, Hylo presents a comprehensive system for sustaining protocol stability and fostering community involvement.
 
 \
-\
-
-
-\
-\
-
-
-
+\\
 
 \
+\\
+
+\\
