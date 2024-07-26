@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Lite Paper](README.md)
+* [Hylo Litepaper](README.md)
