@@ -83,7 +83,7 @@ $$
 p_x = \frac {n_{sol} \cdot p_{sol} - n_{hy}} {n_x}
 $$
 
-We can observe that the price of xSOL depends on the amount of unreserved collateral in the system divided by its token supply. As the amount of unreserved collateral grows, implying either price appreciation in SOL or burning of hyUSD, the price of xSOL increases. Likewise if the SOL price dips or too much hyUSD is minted, the price of xSOL decreases to entice investors into opening leveraged positions to balance the protocol.
+We can observe that the price of xSOL depends on the amount of unreserved collateral in the system divided by its token supply. As the amount of unreserved collateral grows, implying a price appreciation in SOL, the price of xSOL increases. Likewise if the SOL price dips, the price of xSOL decreases to entice investors into opening leveraged positions to balance the protocol.
 
 {% hint style="info" %}
 Let's say the SOL price is $100, there is 1 SOL deposited in the pool, and there is a supply of 50 hyUSD and 50 xSOL floating. With a value of $100 in the pool and $50 worth of reserved collateral for hyUSD, the price of xSOL is $50 / 50 or $1.\
